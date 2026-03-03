@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdict Resources Limited </title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons (free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+           <div class="logo">
+            <a href="index.html">
+                <img src="img/WPS Photos(1).jpeg" alt="Abdict Resources Limited" class="logo-img">
+                    </a>
+                        </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="management.html">Management</a></li>
+                <li><a href="services.html">Services</a></li>      
+                <li><a href="contact.html">Contact</a></li>
+                
+
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+<!-- Hero Section with Slideshow -->
+<header class="hero-slideshow">
+    <!-- Slideshow Images -->
+    <div class="slideshow-container">
+        <div class="slide fade" style="background-image: url('img/a8622ae5703fb1e8181c714f00ff1347.jpg');"></div>
+        <div class="slide fade" style="background-image: url('img/658e8fe6f6fde5656c959b6e1db2bc47.jpg');"></div>
+        <div class="slide fade" style="background-image: url('img/c0d6250820a561744b27cc63d43e504d.jpg');"></div>
+        <div class="slide fade" style="background-image: url('img/b24cfbbc38ca74e1e94d313a328bd65e.jpg');"></div>
+    </div>
+    
+    <!-- Dark Overlay (makes text readable) -->
+    <div class="hero-overlay"></div>
+    
+    <!-- Hero Content (same as before) -->
+    <div class="hero-content">
+        <div class="container">
+            <h1>Transforming Africa Through <br><span>Sustainable Finance and Investment Advisory</span></h1>
+            <p class="hero-text">Abdict Resources Limited is a financial services company dedicated to contributing to Nigeria and Africa's sustainable economic development with integrity, a client-focused mindset, and commitment to inclusive growth.</p>
+            <div class="hero-buttons">
+                <a href="about.html" class="btn btn-primary">Learn More</a>
+                <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Slideshow Navigation Dots -->
+    <div class="slideshow-dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    
+    <!-- Next/Prev Buttons (optional) -->
+    <a class="slide-prev" onclick="changeSlide(-1)">❮</a>
+    <a class="slide-next" onclick="changeSlide(1)">❯</a>
+</header>
+
+    <!-- Values Section -->
+    <section class="values">
+        <div class="container">
+            <h2>Our Core Values</h2>
+            <p class="section-subtitle">The principles that guide our mission to transform Africa's financial landscape</p>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Integrity</h3>
+                    <p>Operating with unwavering ethical standards and transparency in all we do.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Client-Focused</h3>
+                    <p>Putting our clients' needs first and building lasting partnerships.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Entrepreneurial Drive</h3>
+                    <p>Innovative thinking and proactive approaches to financial solutions.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fas fa-globe-africa"></i>
+                    </div>
+                    <h3>Inclusive Growth</h3>
+                    <p>Committed to diversity and sustainable development across Africa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2>About Abdict Resources</h2>
+                    <p>Abdict Resources Limited is a financial services company dedicated to transforming Nigeria and  Africa, contributing to the continent's sustainable economic development.</p>
+                    <p>We empower businesses with financial expertise and strategic solutions that drive growth, while maintaining the highest standards of governance and compliance.</p>
+                    <div class="mission-vision">
+                        <div class="mission">
+                            <h4><i class="fas fa-bullseye"></i> Our Mission</h4>
+                            <p>To empower businesses with financial expertise and strategic solutions that drive growth.</p>
+                        </div>
+                        <div class="vision">
+                            <h4><i class="fas fa-eye"></i> Our Vision</h4>
+                            <p>To be the preferred financial partner for businesses by providing innovative corporate advisory solutions.</p>
+                        </div>
+                    </div>
+                    <a href="about.html" class="btn btn-primary">Read More <i class="fas fa-arrow-right"></i></a>
+                </div>
+               
+                <div class="about-image">
+                 <img src="img/about preview.jpg" alt="Transforming Africa's Financial Future">
+                        </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-preview">
+        <div class="container">
+            <h2>Our Core Services</h2>
+            <p class="section-subtitle">Comprehensive financial solutions tailored to drive growth and maximize value</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Financial Advisory</h3>
+                    <p>Strategic advice to enhance business performance and growth.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-sitemap"></i>
+                    <h3>Corporate Strategy</h3>
+                    <p>Development and implementation of strategies to maximize efficiency and value.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-building"></i>
+                    <h3>Corporate Governance</h3>
+                    <p>Board advisory and regulatory compliance frameworks.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Development Consulting</h3>
+                    <p>Sustainable development and impact investment advisory.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-search"></i>
+                    <h3>Due Diligence</h3>
+                    <p>Comprehensive reviews for investment and partnership decisions.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-tasks"></i>
+                    <h3>Feasibility Studies</h3>
+                    <p>Business planning and project viability assessment.</p>
+                </div>
+                <div class = "service-card">
+                    <i class="fas fa-chart-line"></i> 
+                    <h3>Investment Advisory</h3>
+                    <p>Strategic investment guidance for institutional and individual clients</p>
+
+                </div>
+                
+                <div class = "service-card">
+                    <i class="fas fa-rocket"></i> 
+                    <h3>Public Private Partnership</h3>
+                    <p>Engage and partner with governments(local, sate and federal) on public private partnership(PPP)</p>
+
+                </div>
+            </div>
+            <div class="center-btn">
+                <a href="services.html" class="btn btn-secondary">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Teaser 
+    <section class="investment-teaser">
+        <div class="container">
+            <div class="teaser-content">
+                <h2>Exclusive Investment Opportunity</h2>
+                <p>Access Nigeria's high-yield sovereign instruments (16-21%) with fully hedged FX risk. Structured USD 20 million facility with 7-year tenor and equity participation.</p>
+                <div class="teaser-highlights">
+                    <div class="highlight">
+                        <span>SOFR + 1%</span>
+                        <small>Interest Rate</small>
+                    </div>
+                    <div class="highlight">
+                        <span>7 Years</span>
+                        <small>Tenor</small>
+                    </div>
+                    <div class="highlight">
+                        <span>2 Years</span>
+                        <small>Interest Moratorium</small>
+                    </div>
+                    <div class="highlight">
+                        <span>40%</span>
+                        <small>Dividend Payout</small>
+                    </div>
+                </div>
+                <a href="investment.html" class="btn btn-primary">View Investment Details</a>
+            </div>
+        </div>
+    </section>
+-->
+
+   
+     <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>ABDICT RESOURCES</h3>
+                    <p>Transforming Nigeria and  Africa through sustainable finance, integrity, and inclusive growth.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="management.html">Management</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Financial and Investment  Advisory</li>
+                        <li>Corporate Strategy</li>
+                        <li>Assurance Services</li>
+                        <li>Development Consulting</li>
+                        <li>Business Advisory and Financing</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>plot 205 Herbert Macaulay way, yaba, Lagos, Nigeria. </p>
+                   <p><i class="fas fa-envelope"></i><a href="mailto:ataire@abdictresources.com">ataire@abdictresources.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Abdict Resources Limited. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
